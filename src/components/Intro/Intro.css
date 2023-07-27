@@ -19,13 +19,13 @@
 
 .intro_name>:nth-child(1){
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 400;
     color: var(--black);
 }
 
 .intro_name>:nth-child(2){
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--orange);
 }
 

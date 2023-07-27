@@ -6,7 +6,7 @@
 .heading{
     text-align: center;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--orange);
     margin-bottom: 50px;
 }

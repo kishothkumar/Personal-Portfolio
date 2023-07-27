@@ -1,0 +1,148 @@
+{
+    "skills" : {
+        "1" : {
+            "name" : "C++",
+            "img" : ""
+        },
+        "2" : {
+            "name" : "C",
+            "img" : ""
+        },
+        "3" : {
+            "name" : "Java",
+            "img" : ""
+        },
+        "4" : {
+            "name" : "PYTHON",
+            "img" : ""
+        },
+        "5" : {
+            "name" : "HTML5",
+            "img" : ""
+        },
+        "6" : {
+            "name" : "CSS",
+            "img" : ""
+        },
+        "7" : {
+            "name" : "JAVASCRIPT",
+            "img" : ""
+        },
+        "8" : {
+            "name" : "REACT JS",
+            "img" : ""
+        },
+        "9" : {
+            "name" : "NODE JS",
+            "img" : ""
+        },
+        "10" : {
+            "name" : "MONGO DB",
+            "img" : ""
+        },
+        "11" : {
+            "name" : "MYSQL",
+            "img" : ""
+        },
+        "12" : {
+            "name" : "FIREBASE",
+            "img" : ""
+        }
+    },
+    "education" : {
+        "1" : {
+            "year" : "2020-2024",
+            "name" : "RMK College of Engineering and Technology",
+            "description" : "Currently pursuing a Bachelor's degree in the CSE department at RMK College of Engineering and Technology with a CGPA of 8.88."
+        },
+        "2" : {
+            "year" : "2018-2020",
+            "name" : "Sir Ramaswami Mudaliar Higher Secondary School",
+            "description" : "Completed my 11th and 12th-grade education at Sir Ramaswami Mudaliar Higher Secondary School. I scored 76.67% in my 12th-grade examinations."
+        },
+        "3" : { 
+            "year" : "2008-2018",
+            "name" : "Sree Hari Saradha Vidyalaya Matriculation School",
+            "description" : "Completed my primary education at Sree Hari Saradha Vidyalaya Matriculation School. I scored 90% in my 10th-grade examinations."
+        }
+    },
+    "experience" : {
+        "1" : {
+            "year" : "April 2022",
+            "name" : "TCS ION | Intern",
+            "description" : "Worked on the project titled Automate Detection of Different Emotions from Textual Comments and Feedback"
+        }
+    },
+    "projects" : {
+        "1" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "2" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "3" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "4" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "5" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "6" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "7" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "8" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "9" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        },
+        "10" : {
+            "name" : "",
+            "description" : "",
+            "image" : "",
+            "github-link" : "",
+            "live-link" : ""
+        }
+    }
+}
