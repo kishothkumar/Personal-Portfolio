@@ -1,0 +1,41 @@
+.app_footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+}
+
+.app_footer img {
+    width: 100%;
+}
+
+.footer_content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4rem;
+    color: white;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer_icons a {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: -6.3rem;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: small;
+}

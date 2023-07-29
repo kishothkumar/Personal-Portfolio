@@ -1,0 +1,48 @@
+.app_certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 4rem;
+}
+
+.app_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_name> :nth-child(1) {
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.app_name> :nth-child(2) {
+    font-size: 2rem;
+    color: var(--orange);
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.swiper {
+    overflow: visible !important;
+}
+
+.certificates-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.certificates-slider .swiper-slide {
+    width: 20rem;
+}
+
+.swiper-slide img {
+    width: 19rem;
+    border-radius: 19px;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+}

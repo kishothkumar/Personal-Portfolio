@@ -1,0 +1,93 @@
+.contact_form {
+    display: flex;
+    padding: 0 3rem;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.contact_name {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_name> :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.contact_name> :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.app_right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.app_right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.user {
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    padding: 0.3em;
+    font-size: 16px;
+}
+
+textarea {
+    height: 4rem !important;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+    background: #edd0ff;
+}
+
+.button {
+    font-size: 20px;
+    border-radius: 34px;
+    padding: 5px 20px 8px 20px;
+    cursor: pointer;
+    border: none;
+    flex: 2;
+    background: rgb(255, 155, 23);
+    box-shadow: 0px 20px 24px 3px rgba(255, 155, 23, 0.40);
+}
+
+.app_left {
+    padding: 3rem 0;
+}
+
+.blur-right {
+    top: 3rem;
+    left: 8rem;
+    background: var(--purple);
+}
+
+.blur-left {
+    top: 13rem;
+    left: -18rem;
+    background: #ABF1FF94;
+}
