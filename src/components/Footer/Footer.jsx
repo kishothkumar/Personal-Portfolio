@@ -14,9 +14,9 @@ const Footer = () => {
       <div className="footer_content">
         <span>kishothkumarcse@gmail.com</span>
         <div className="footer_icons">
-          <a href=""><FaInstagram size='3rem' /></a>
-          <a href=""><FaGithubSquare size='3rem' /></a>
-          <a href=""><FaLinkedin size='3rem' /></a>
+          <a href="#"><FaInstagram size='3rem' /></a>
+          <a href="#"><FaGithubSquare size='3rem' /></a>
+          <a href="#"><FaLinkedin size='3rem' /></a>
         </div>
       </div>
     </div>
