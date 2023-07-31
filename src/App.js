@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Certificates from "./components/Certificates/Certificates";
 import { themeContext } from './Context'
 import { useContext } from "react"
+import Copyright from "./components/Copyright/Copyright";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Certificates />
       <Contact />
       <Footer />
+      <Copyright />
     </div>
   );
 }

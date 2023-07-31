@@ -12,13 +12,13 @@ const Certificates = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="app_certificates">
+        <div className="app_certificates" id='Certificates'>
             <div className="app_name">
                 <span style={{ color: darkMode ? 'white' : '' }}>Recent Certificates</span>
                 <span>Gallery</span>
             </div>
             <Swiper
-                spaceBetween={-30}
+                spaceBetween={30}
                 slidesPerView={3}
                 grabCursor={true}
                 className='certificates-slider'

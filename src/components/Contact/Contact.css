@@ -27,7 +27,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 4rem;
     flex: 1;
 }
 
@@ -73,16 +74,27 @@ textarea {
     border: none;
     flex: 2;
     background: rgb(255, 155, 23);
+    color: white;
     box-shadow: 0px 20px 24px 3px rgba(255, 155, 23, 0.40);
+}
+
+.button:hover {
+    background: white;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    transition: 0.1s;
 }
 
 .app_left {
     padding: 3rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .blur-right {
-    top: 3rem;
-    left: 8rem;
+    top: -1rem;
+    left: 9rem;
     background: var(--purple);
 }
 
@@ -90,4 +102,20 @@ textarea {
     top: 13rem;
     left: -18rem;
     background: #ABF1FF94;
+}
+
+@media screen and (max-width:1070px) {
+    .contact_form {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .contact_name> :nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .contact_name> :nth-child(2) {
+        font-size: 2rem;
+    }
 }

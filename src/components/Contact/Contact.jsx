@@ -36,7 +36,7 @@ const Contact = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="contact_form">
+        <div className="contact_form" id='Contact'>
             <div className="app_left">
                 <div className="contact_name">
                     <span style={{ color: darkMode ? 'white' : '' }}>Get in touch</span>

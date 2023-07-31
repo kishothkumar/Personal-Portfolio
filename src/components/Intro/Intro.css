@@ -1,10 +1,10 @@
-.intro{
+.intro {
     display: flex;
     height: 77vh;
     margin-top: 6rem;
 }
 
-.intro_left{
+.intro_left {
     display: flex;
     position: relative;
     flex: 1;
@@ -12,30 +12,30 @@
     gap: 2rem;
 }
 
-.intro_name{
+.intro_name {
     display: flex;
     flex-direction: column;
 }
 
-.intro_name>:nth-child(1){
+.intro_name>:nth-child(1) {
     font-size: 3rem;
     font-weight: 400;
     color: var(--black);
 }
 
-.intro_name>:nth-child(2){
+.intro_name>:nth-child(2) {
     font-size: 3rem;
     font-weight: 500;
     color: var(--orange);
 }
 
-.intro_name>:nth-child(3){
+.intro_name>:nth-child(3) {
     margin-top: 1rem;
     font-size: 16px;
     color: var(--grey);
 }
 
-.intro_button{
+.intro_button {
     font-size: 20px;
     border-radius: 34px;
     width: 6rem;
@@ -44,38 +44,55 @@
     box-shadow: 0px 20px 24px 3px rgba(255, 155, 23, 0.40);
     cursor: pointer;
     border: none;
+    color: white;
 }
 
-.intro_button:hover{
+.intro_button:hover {
     background: white;
     color: var(--orange);
     border: 2px solid var(--orange);
 }
 
-.intro_icons{
+.intro_icons {
     display: flex;
 }
 
-.intro_icons>*{
+.intro_icons>* {
     transform: scale(0.5);
 }
 
-.intro_icons>:nth-child(3){
+.intro_icons>:nth-child(3) {
     transform: scale(0.9);
     margin-top: 10px;
 }
 
-.intro_right{
+.intro_right {
     flex: 1;
     position: relative;
 }
 
-.intro_right>*{
+.intro_right>img {
     position: absolute;
+    max-width: 600px;
+    top: -110px;
 }
 
-.intro_right>:nth-child(1){
-    top: -120%;
-    left: -80%;
-    transform: scale(0.37);
+@media screen and (max-width: 1200px) {
+    .intro_right>img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro_right>img {
+        width: 100%;
+    }
+
+    .intro_right {
+        margin: 100px 0;
+    }
 }

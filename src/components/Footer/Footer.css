@@ -31,11 +31,27 @@
     color: white;
 }
 
-footer {
-    position: absolute;
-    bottom: -6.3rem;
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    font-size: small;
+@media screen and (max-width:1070px) {
+    .app_footer {
+        margin-top: 100px;
+    }
+
+    .footer_content {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app_footer {
+        margin-top: 0px;
+    }
+
+    .footer_content {
+        gap: 1rem;
+    }
+
+    .footer_icons a>* {
+        height: 40px;
+        width: 40px;
+    }
 }

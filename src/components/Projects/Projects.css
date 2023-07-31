@@ -1,6 +1,6 @@
-.projects-heading h2{
+.projects-heading h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     color: var(--orange);
     margin-bottom: 50px;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.filter-buttons .projects-btn {
+.filter-buttons>.projects-btn {
     border: none;
     outline: none;
     background: none;
@@ -23,7 +23,7 @@
     color: black;
 }
 
-.filter-buttons .projects-btn:hover {
+.filter-buttons>.projects-btn:hover {
     color: var(--orange);
 }
 
@@ -73,7 +73,7 @@
     height: 100%;
     color: white;
     opacity: 0;
-    background: linear-gradient(rgba(0,0,0,0.2), rgb(0, 255, 251));
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 255, 251));
     display: flex;
     flex-direction: column;
     align-items: center;
