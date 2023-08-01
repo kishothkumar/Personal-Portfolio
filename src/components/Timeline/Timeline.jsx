@@ -5,7 +5,7 @@ const Timeline = () => {
     return (
         <div className='timeline' id='Experience'>
             <div className="timeline-content">
-                <h2 className='timeline-heading'>EDUCATION</h2>
+                <h2 className='timeline-heading'>Education</h2>
                 <div className="content">
                     <div className="card">
                         <h4>2020-2024</h4>
@@ -25,7 +25,7 @@ const Timeline = () => {
                 </div>
             </div>
             <div className="timeline-content">
-                <h2 className='timeline-heading'>EXPERIENCE</h2>
+                <h2 className='timeline-heading'>Experience</h2>
                 <div className="content">
                     <div className='card'>
                         <h4>April 2022</h4>

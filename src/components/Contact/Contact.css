@@ -112,10 +112,22 @@ textarea {
 
 @media screen and (max-width:650px) {
     .contact_name> :nth-child(1) {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .contact_name> :nth-child(2) {
-        font-size: 2rem;
+        font-size: 1.7rem;
+    }
+
+    .app_right {
+        margin-top: 2rem;
+    }
+
+    .user {
+        width: 17rem;
+    }
+
+    .contact_form {
+        margin-bottom: 4rem;
     }
 }

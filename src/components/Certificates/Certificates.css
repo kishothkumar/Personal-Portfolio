@@ -47,20 +47,12 @@
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
 }
 
-@media screen and (max-width: 1050px) {
-    .certificates-slider {
-        flex-wrap: wrap;
+@media screen and (max-width:640px) {
+    .app_name> :nth-child(1) {
+        font-size: 1.5rem;
     }
 
-    .certificates-slider .swiper-slide {
-        flex: 0 0 calc(50% - 20px);
-        margin: 10px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .certificates-slider .swiper-slide {
-        flex: 0 0 calc(100% - 20px);
-        margin: 10px;
+    .app_name> :nth-child(2) {
+        font-size: 1.7rem;
     }
 }

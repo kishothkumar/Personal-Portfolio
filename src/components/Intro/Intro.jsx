@@ -7,6 +7,7 @@ import Instagram from '../../img/instagram.png'
 import Emoji from '../../img/emoji.png'
 import { useContext } from 'react'
 import { themeContext } from '../../Context'
+import Resume from './kishoth_kumar_CV.pdf'
 
 const Intro = () => {
 
@@ -26,7 +27,12 @@ const Intro = () => {
             freelance or full-time opportunities.
           </span>
         </div>
-        <button className="intro_button">Hire Me</button>
+        <div className="intro_buttons">
+          <button className="intro_button">Hire Me</button>
+          <a href={Resume} download>
+            <button className="intro_button r_button">Download CV</button>
+          </a>
+        </div>
 
         <div className="intro_icons">
           <a href="#"><img src={GitHub} alt="" /></a>

@@ -35,6 +35,11 @@
     color: var(--grey);
 }
 
+.intro_buttons {
+    display: flex;
+    align-items: center;
+}
+
 .intro_button {
     font-size: 20px;
     border-radius: 34px;
@@ -45,6 +50,11 @@
     cursor: pointer;
     border: none;
     color: white;
+}
+
+.r_button {
+    margin-left: 3rem;
+    width: 8rem;
 }
 
 .intro_button:hover {
@@ -69,12 +79,13 @@
 .intro_right {
     flex: 1;
     position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 .intro_right>img {
-    position: absolute;
     max-width: 600px;
-    top: -110px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -85,6 +96,7 @@
 
 @media screen and (max-width: 1070px) {
     .intro {
+        position: relative;
         flex-direction: column;
     }
 
@@ -93,6 +105,12 @@
     }
 
     .intro_right {
-        margin: 100px 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .intro {
+        margin-top: 1rem;
     }
 }
