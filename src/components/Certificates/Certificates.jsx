@@ -1,10 +1,10 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import Certificate from '../../img/musicapp.png'
 import './Certificates.css'
 import 'swiper/css'
 import { useContext } from 'react'
 import { themeContext } from '../../Context'
+import { data } from '../../constants'
 
 const Certificates = () => {
 
@@ -23,21 +23,11 @@ const Certificates = () => {
                 grabCursor={true}
                 className='certificates-slider'
             >
-                <SwiperSlide className='swiper-slide'>
-                    <img src={Certificate} alt="" />
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <img src={Certificate} alt="" />
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <img src={Certificate} alt="" />
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <img src={Certificate} alt="" />
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                    <img src={Certificate} alt="" />
-                </SwiperSlide>
+                {data.certificates.map((certificate, index) => (
+                    <SwiperSlide key={index} className='swiper-slide'>
+                        <img src={certificate.image} alt="" />
+                    </SwiperSlide>
+                ))}
             </Swiper>
 
         </div>

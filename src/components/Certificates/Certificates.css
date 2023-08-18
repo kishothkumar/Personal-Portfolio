@@ -42,7 +42,9 @@
 }
 
 .swiper-slide img {
+    object-fit: contain;
     width: 19rem;
+    height: 12rem;
     border-radius: 19px;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
 }

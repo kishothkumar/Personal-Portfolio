@@ -8,6 +8,7 @@ import Emoji from '../../img/emoji.png'
 import { useContext } from 'react'
 import { themeContext } from '../../Context'
 import Resume from './kishoth_kumar_CV.pdf'
+import { Link } from 'react-scroll'
 
 const Intro = () => {
 
@@ -28,17 +29,19 @@ const Intro = () => {
           </span>
         </div>
         <div className="intro_buttons">
-          <button className="intro_button">Hire Me</button>
+          <Link to='Contact' smooth={true}>
+            <button className="intro_button">Hire Me</button>
+          </Link>
           <a href={Resume} download>
             <button className="intro_button r_button">Download CV</button>
           </a>
         </div>
 
         <div className="intro_icons">
-          <a href="#"><img src={GitHub} alt="" /></a>
-          <a href="#"><img src={LinkedIn} alt="" /></a>
-          <a href="#"><img src={Twitter} alt="" /></a>
-          <a href="#"><img src={Instagram} alt="" /></a>
+          <a href="https://github.com/kishothkumar" target={'_blank'}><img src={GitHub} alt="" /></a>
+          <a href="https://www.linkedin.com/in/kishoth-kumar-074/" target={'_blank'}><img src={LinkedIn} alt="" /></a>
+          <a href="https://twitter.com/kishothkumar81" target={'_blank'}><img src={Twitter} alt="" /></a>
+          <a href="https://www.instagram.com/kishoth._.kumar/" target={'_blank'}><img src={Instagram} alt="" /></a>
         </div>
       </div>
       <div className="intro_right">

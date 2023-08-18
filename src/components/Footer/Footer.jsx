@@ -11,9 +11,9 @@ const Footer = () => {
       <div className="footer_content">
         <span>kishothkumarcse@gmail.com</span>
         <div className="footer_icons">
-          <a href="#"><FaInstagram size='3rem' /></a>
-          <a href="#"><FaGithubSquare size='3rem' /></a>
-          <a href="#"><FaLinkedin size='3rem' /></a>
+          <a href="https://www.instagram.com/kishoth._.kumar/" target={'_blank'}><FaInstagram size='3rem' /></a>
+          <a href="https://github.com/kishothkumar" target={'_blank'}><FaGithubSquare size='3rem' /></a>
+          <a href="https://www.linkedin.com/in/kishoth-kumar-074/" target={'_blank'}><FaLinkedin size='3rem' /></a>
         </div>
       </div>
     </div>
