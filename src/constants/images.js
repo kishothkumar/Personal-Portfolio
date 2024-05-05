@@ -5,16 +5,24 @@ import java from '../img/java.png'
 import css from '../img/css.png'
 import javascript from '../img/jss.png'
 import python from '../img/python.png'
+import bash from '../img/bash.png'
 import reactjs from '../img/react.png'
 import nodejs from '../img/node.png'
+import expressjs from '../img/express.png'
 import mysql from '../img/mysql.png'
 import github from '../img/github1.png'
 import git from '../img/git.png'
 import redux from '../img/redux.png'
 import mongodb from '../img/mongodb.png'
+import docker from '../img/docker.png'
+import kubernetes from '../img/kubernetes.png'
+import ansible from '../img/ansible.png'
+import jenkins from '../img/jenkins.png'
+import aws from '../img/aws.png'
 import firebase from '../img/firebase.png'
 import netflix from '../img/netflix.jpg'
 import disney from '../img/disney.jpg'
+import coderzhub from '../img/coderzhub.png'
 import stickynotes from '../img/stickynotes.jpg'
 import breastcancer from '../img/breastcancer.jpg'
 import certificate1 from '../img/certificate1.png'
@@ -38,17 +46,25 @@ export default {
     css,
     javascript,
     python,
+    bash,
     reactjs,
     nodejs,
+    expressjs,
     mysql,
     github,
     git,
     redux,
     mongodb,
+    docker,
+    kubernetes,
+    ansible,
+    jenkins,
+    aws,
     firebase,
     disney,
     netflix,
     stickynotes,
+    coderzhub,
     breastcancer,
     certificate1,
     certificate2,

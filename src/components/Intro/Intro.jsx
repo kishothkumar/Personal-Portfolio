@@ -7,7 +7,7 @@ import Instagram from '../../img/instagram.png'
 import Emoji from '../../img/emoji.png'
 import { useContext } from 'react'
 import { themeContext } from '../../Context'
-import Resume from './kishoth_kumar_CV.pdf'
+import Resume from './kishoth_kumar_resume.pdf'
 import { Link } from 'react-scroll'
 
 const Intro = () => {
@@ -21,11 +21,11 @@ const Intro = () => {
         <div className="intro_name">
           <span style={{ color: darkMode ? 'white' : '' }}>Hi! I Am</span>
           <span>Kishoth Kumar</span>
-          <span>I am a Front-end Engineer with experience in HTML, CSS, JavaScript
-            and popular frameworks. I am dedicated to creating seamless user
-            experiences and staying current with web development trends.
-            My portfolio showcases my skills and experience. Available for
-            freelance or full-time opportunities.
+          <span>Welcome to the world of Full Stack Mastery and DevOps Expertise.
+            I specialize in creating seamless user experiences using the MERN stack,
+            along with Docker, Kubernetes, Ansible, and AWS. Explore my portfolio to
+            see how innovation meets simplicity. Let's work together to shape the future,
+            whether on freelance projects or full-time ventures.
           </span>
         </div>
         <div className="intro_buttons">

@@ -23,7 +23,7 @@ const Navbar = () => {
                             <li className='nav_item'>Experience</li>
                         </Link>
                         <Link to='Portfolio' smooth={true}>
-                            <li className='nav_item'>Portfolio</li>
+                            <li className='nav_item'>Projects</li>
                         </Link>
                         <Link to='Certificates' smooth={true}>
                             <li className='nav_item'>Certificates</li>
